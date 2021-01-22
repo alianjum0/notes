@@ -59,12 +59,12 @@ const App = () => {
 	return <div> Hey </div>
 };
 ReactDOM.render(
-	<App />
+	<App />,
 	document.querySeletor('#root')
 );
 ```
 # JSX
-* JSX is converted function calls by react so Babel can convert to JavaScript.
+* JSX is converted into function calls by react so Babel can convert it to JavaScript.
 * can test it at babeljs.io
 * JSX is easy to read and understand.
 ### Converting HTML to JSX
@@ -73,18 +73,18 @@ opening line of JSX is on same line as JSX otherwise it will return empty.
 ### JSX vs HTML
 1. adding custom styling to an element.
 > style="background-color:red" => style={{backgroundColor: 'red'}} javascript object
-nonJSX properties use " quotes for JSX properties and single quotes everywhere else.
+* non-JSX properties use " quotes for JSX properties and single quotes everywhere else.
 2. Adding a class to an element
 > class="label" => className="label"
-avoid conclusion with component class
+* To avoid confusion with component class
 3. JSX can reference javascript variable
 > {buttonText} javascript variable
-javascipt valiable can be string, variable or array but not javacript object
+* javascipt valiable can be string, variable or array but not javacript object
 > const buttonText= {text: 'click me'} error
-can reference object in properties but not to print
+* can reference object in properties but not to print
 > const style= {backgroundColor: 'blue', color:'white'};
 > style ={style} OK
-other warnings can be seen in console
+* other warnings can be seen in console
 * semantics-ui css file for styles from cdnjs
 * faker package for fake images
 ### Creating a reusable, configurable component
@@ -94,13 +94,14 @@ other warnings can be seen in console
 
 * export and import a component
 > export default CommentDetail
+
 > import CommentDetail from './CommentDetail'
 * it will automatically add .js at the end to search
 ### React props system
 * props(properties) is a system to pass data from a parent component to a child component.
 * Goal is to compile and configure a child component.
 
-* props.children get whats JSX inside component.
+* props.children get what's inside JSX component.
 
 * Two types of components in React
 1. Functional: Can produce JSX to show content
