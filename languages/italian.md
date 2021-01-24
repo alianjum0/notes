@@ -113,95 +113,95 @@ let's say... diciamo..
 how can i put it... coma dire...
 ```
 [Reference](https://www.youtube.com/watch?v=ucRrSDa6MlE&ab_channel=EkoLanguages)
-> What's your last name - Il mio cognome e Smith
-> What's your address - Qual e il tuo indrizzo?
-> My address is 88 Maple Sreet - Il mio indrizzo e Maple Street, 88.
-> What's your phone number? -Qual e il tuo numero di telefono.
-> My phone number is 555-8888. Il mio numero di telefono e 555-8888.
-> Which do you like more? - Quale preferisci?
-> I like the white one. - Preferisco quello bianco.
-> Which was the book that you read yesterday? Qual era il libro che leggevi
-> ieri?
-> I read the Alchemist yesterday. - Ieri leggevo The Alchemist.
-> Where are you from?  Di dove sei?
-> I am from Pakistan. Sono di Pakistan.
-> Where did you find it? - Dove l'hai trovato?
-> I found it in the car. L'ho trovato in auto.
-> Where have you been? - Dove sei stato?
-> I was at home the whole time. - Sono stato a casa tutto il tempo.
-> where are you going? Dove stai andando?
-> I am going to the hotel. - Sto andando in albergo.
-> Where is the nearest metro station? - Dov'e la fermata della metro piu vicina?
-> It's next to the bank. E vivino alla banca.
-> Do you kow where the bank is. - Sai dov'e la banca?
-> I don't know where the bank is. - No so dov'e la banca.
-> He doesn't know where it is. - Non sa dov'e la banca.
-> No, he isn't from here. - No, non e di qui.
-> Where is the car? - Dov'e l'auto?
-> The car's in the garage. - L'auto e nel garage.
-> What time is it? - Che ore sono?
-> It's 3:30. Sono le 3:30.
-> What's that? Cos'e quello?
-> It's my credit card. E la mia carta di credito.
-> What would you like to eat? Cosa vorresti mangiare?
-> I'd like to eat Chinese food. - Vorrei mangiare cibo cinese.
-> What did you do yesterday? - Cosa hai fatto ieri?
-> Yesterday, I went to school. - Ieri sono andato a scuola.
-> What are yiu going to do tomorrow? - Cosa farai domani?
-> Tomorrow I have to work early. - Domani vado a lavoro presto.
-> Do you what I mean? - Capisci cosa intendo?
-> I have no idea what you are talking about. - Non ho idea di cosa tu stia
-> parlando.
-> Do you know what she wants? - Sai cosa vuole?
-> She wants ice cream. - Vuole un gelato.
-> who's she? - Lei chi e?
-> She's my sister. -  E mia sorella.
-> Who have you called? Chi hai chiamato?
-> I've called my Mom. - Ho chiamato mia mamma.
-> Who's your best friend? - Vhi e il tuo migliore amico?
-> My best friend is Tom. - Il mio migliore amico e Tom.
-> Who was at home? - Chi era a casa?
-> Tom was at home? - Tom era a casa.
-> Who can help me? - Chi puo aiutarmi?
-> I can help you. - Io posso aiutarti.
-> Who did you sell your car to? - A chi hai venduto la tua auto?
-> I sold my car to friend. - Ho venduto la mia auto a un mio amico.
-> Who are you writing that letter to? -  A chi stai scrivendo quella lettera.
-> I am writing this letter to you. Sto scrivendo questa lettera per te.
-> Who did you tell the password to? A chi hai detto la password?
-> I didn't tell anyone the password. Non ho detto a nessuno la password.
-> Who did you invite to the wedding? Chi hai invitato al matrimonio.
-> We invited out friends and family. Ho invitato i nostri amici e la nostra
-> famiglia.
-> Do you know who whis is? Sai questa chi e?
-> It's your sister, isn't it? E tua sorella,no?
-> Who's book is this? Di chi e questo libro?
-> It's mine. - E mio
-> Whose is this. Di Chi e questo?
-> It's yours. E tuo.
-> Are there eartquakes in Chile? Ci sono terremoti in Cile?
-> Yes, there are many. Si, ce ne sono molti.
-> How do you feel today? Come ti senti oggi? 
-> I feel terrible and I don't have energy. Mi sento mallissimo e non ho
-> energia.
-> How are you? Come stai?
-> I'm okay. Sto bene.
-> How do you pronounce this? Come lo pronunci questo?
-> I don't know because I can't read. Non lo so perche non so leggere.
-> How do you say this in English? Come lo dici in inglese?
-> It's water. E aqua.
-> How early do you get up? Quanto presto to svegli?
-> I get up at 5 in the morning. Mi alzo alle cinque del mattino.
-> How big is your house? Quanto e grande casa tua?
-> It's bigger than yours. E piu grande della tua.
-> How soon can you start? Quanto puoi inziare?
-> I can start next week. Posso inziare la prossima settimana.
-> How tall is your dad? Quanto e alto tuo padre?
-> He's iix feet tall. E alto un metro e ottantadue.
-> How much does it cost? Quanto costa?
-> It costs a lot of money. Costa un sacco di soldi.
-> How much is it? Quant'e?
 ```
+What's your last name - Il mio cognome e Smith
+What's your address - Qual e il tuo indrizzo?
+My address is 88 Maple Sreet - Il mio indrizzo e Maple Street, 88.
+What's your phone number? -Qual e il tuo numero di telefono.
+My phone number is 555-8888. Il mio numero di telefono e 555-8888.
+Which do you like more? - Quale preferisci?
+I like the white one. - Preferisco quello bianco.
+Which was the book that you read yesterday? Qual era il libro che leggevi
+ieri?
+I read the Alchemist yesterday. - Ieri leggevo The Alchemist.
+Where are you from?  Di dove sei?
+I am from Pakistan. Sono di Pakistan.
+Where did you find it? - Dove l'hai trovato?
+I found it in the car. L'ho trovato in auto.
+Where have you been? - Dove sei stato?
+I was at home the whole time. - Sono stato a casa tutto il tempo.
+where are you going? Dove stai andando?
+I am going to the hotel. - Sto andando in albergo.
+Where is the nearest metro station? - Dov'e la fermata della metro piu vicina?
+It's next to the bank. E vivino alla banca.
+Do you kow where the bank is. - Sai dov'e la banca?
+I don't know where the bank is. - No so dov'e la banca.
+He doesn't know where it is. - Non sa dov'e la banca.
+No, he isn't from here. - No, non e di qui.
+Where is the car? - Dov'e l'auto?
+The car's in the garage. - L'auto e nel garage.
+What time is it? - Che ore sono?
+It's 3:30. Sono le 3:30.
+What's that? Cos'e quello?
+It's my credit card. E la mia carta di credito.
+What would you like to eat? Cosa vorresti mangiare?
+I'd like to eat Chinese food. - Vorrei mangiare cibo cinese.
+What did you do yesterday? - Cosa hai fatto ieri?
+Yesterday, I went to school. - Ieri sono andato a scuola.
+What are yiu going to do tomorrow? - Cosa farai domani?
+Tomorrow I have to work early. - Domani vado a lavoro presto.
+Do you what I mean? - Capisci cosa intendo?
+I have no idea what you are talking about. - Non ho idea di cosa tu stia
+parlando.
+Do you know what she wants? - Sai cosa vuole?
+She wants ice cream. - Vuole un gelato.
+who's she? - Lei chi e?
+She's my sister. -  E mia sorella.
+Who have you called? Chi hai chiamato?
+I've called my Mom. - Ho chiamato mia mamma.
+Who's your best friend? - Vhi e il tuo migliore amico?
+My best friend is Tom. - Il mio migliore amico e Tom.
+Who was at home? - Chi era a casa?
+Tom was at home? - Tom era a casa.
+Who can help me? - Chi puo aiutarmi?
+I can help you. - Io posso aiutarti.
+Who did you sell your car to? - A chi hai venduto la tua auto?
+I sold my car to friend. - Ho venduto la mia auto a un mio amico.
+Who are you writing that letter to? -  A chi stai scrivendo quella lettera.
+I am writing this letter to you. Sto scrivendo questa lettera per te.
+Who did you tell the password to? A chi hai detto la password?
+I didn't tell anyone the password. Non ho detto a nessuno la password.
+Who did you invite to the wedding? Chi hai invitato al matrimonio.
+We invited out friends and family. Ho invitato i nostri amici e la nostra
+famiglia.
+Do you know who whis is? Sai questa chi e?
+It's your sister, isn't it? E tua sorella,no?
+Who's book is this? Di chi e questo libro?
+It's mine. - E mio
+Whose is this. Di Chi e questo?
+It's yours. E tuo.
+Are there eartquakes in Chile? Ci sono terremoti in Cile?
+Yes, there are many. Si, ce ne sono molti.
+How do you feel today? Come ti senti oggi? 
+I feel terrible and I don't have energy. Mi sento mallissimo e non ho
+energia.
+How are you? Come stai?
+I'm okay. Sto bene.
+How do you pronounce this? Come lo pronunci questo?
+I don't know because I can't read. Non lo so perche non so leggere.
+How do you say this in English? Come lo dici in inglese?
+It's water. E aqua.
+How early do you get up? Quanto presto to svegli?
+I get up at 5 in the morning. Mi alzo alle cinque del mattino.
+How big is your house? Quanto e grande casa tua?
+It's bigger than yours. E piu grande della tua.
+How soon can you start? Quanto puoi inziare?
+I can start next week. Posso inziare la prossima settimana.
+How tall is your dad? Quanto e alto tuo padre?
+He's iix feet tall. E alto un metro e ottantadue.
+How much does it cost? Quanto costa?
+It costs a lot of money. Costa un sacco di soldi.
+How much is it? Quant'e?
 It cost ten dollars. Costa dieci dollari.
 How many people are there in your family. Quante persone ci sono nella tua
 famiglia.
@@ -254,5 +254,4 @@ I don't have a drivers license. No ho la patente.
 Did you go to the wedding? Sei andato al matrimonio?
 Why didn't you go to the wedding? Perche non sei andato al matrimonio.
 Whose wedding? Il matrimonio di chi?
-
 ```  
