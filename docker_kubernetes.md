@@ -80,7 +80,7 @@ if any step is changed all steps after that are build again
 So to take advantage of caching so it will not run nom install again
 > FROM node:latest
 > WORKDIR /app
-> ADD package*.json ./
+> ADD package\*.json ./
 > RUN npm install
 > ADD . .
 > CMD node index.js
@@ -120,7 +120,7 @@ tag images accoring to the repository alianjum0/website:tag
 > docker tag alianjum0-website:1 alianjum0/website:1
 > docker tag alianjum0-website:2 alianjum0/website:2
 > docker tag alianjum0-website:latest alianjum0/website:latest
-login to dokcer in terminal
+login to docker in terminal
 > docker login
 push image to repository
 > docker push alianjum0/website:1
@@ -153,51 +153,51 @@ check from cmd arguments in inspect of bash path
 # Kubernetes
 * container orchestration tool
 * 100 may be 1000 of containers
-* trend to eicroservices
-* increasd usage of containers
+* trend to micro-services
+* increased usage of containers
 * proper way to manage 
 Features:
 high availability -> no downtime
 scalability -> high performance
 disaster recovery -> backup and restore
 Basic Architecture
-atleast one Master
+at least one Master
 worker nodes: kubelet- talk to cluster
-different number of docker container runing on worker nodes
-master node run multiple kubernetes processes, which are nessary to run cluster
+different number of docker container running on worker nodes
+master node run multiple kubernetes processes, which are necessary to run cluster
 properly
-* API server- a container- entry point ot k8s cluster to which other clients will  talk to e.g. UI,API, CLI
-* Controller Manager: keep an overview of whats happening
-* scheduler: responsible for scheduling containers on different node according
+* **API server**- a container- entry point of k8s cluster to which other clients will talk to e.g. UI,API, CLI
+* **Controller Manager**: keep an overview of whats happening
+* **scheduler**: responsible for scheduling containers on different node according
   to work load and server resources
-* etcd: key value storage, hold any time current state of k8s cluster
+* **etcd**: key value storage, hold any time current state of k8s cluster
 backup and restore is done through etcd
-* Virtual Network: all nodes inside the cluster, VN allow to talk Master to
-  Worker nodes. creates one unified machine 
+* **Virtual Network**: all nodes inside the cluster, VN allow to talk Master to
+  Worker nodes. Creates one unified machine 
 Worker nodes do most of the work and needs more resources
 however master node is much more important
 should have a backup of master node
 ## POD, Service and Ingress
 basic components of k8s
-POD: smaller unit in k8s
+* **POD**: smaller unit in k8s
 abstraction over container
 you only interact with k8s layer
 usually 1 application/container per Pod
 each Pod gets its internal ip address
 Pod can die easily and another Pod is created in that place with different IP
-Service:
+* **Service**:
 permanent IP address can be connect to service
 life cycle of service and Pod is not connected
 if Pod dies, service and its IP address will stay
 External service, internal service
-Ingress:
+* **Ingress**:
 it is in-front of service to change ip:port to url
 routing traffic
 ingress -> service -> Pod
 ### ConfigMap and Secret
 external configuration to application
 e.g DB_URL=mongo-db
-Secret: 
+* **Secret**: 
 use to store secret data
 stored in base 64 encoded
 use it as environment variable of properties file
@@ -236,7 +236,7 @@ for ubuntu install virtualbox
 > sudo apt-get install virtualbox virtualbox-ext-pack
 install minikube
 > brew install minikube
-minikube install kubectl as a dependency
+minikube installs kubectl as a dependency
 start minikube
 > minikube start --vm-driver=virtualbox
 use virtualbox hypervisor to start minikube
@@ -257,8 +257,8 @@ get deployment
 > kubectl get deployment
 **create** command is used to create k8s components
 There is an abstraction layer over Pod that is **deployment**
-create and nginx Deployment
-> kubectl create deployment nginx-depk --image=nginx
+create an nginx Deployment
+> kubectl create deployment nginx-depl --image=nginx
 to show the logs of the application inside pod by name
 > kubectl logs nginx-depk-867fbf486c-m9zcf
 create a mongo-db deployment
@@ -372,3 +372,12 @@ So when a request is made by browser, It will follow this scenario
 > browser -> mongo-express-service -> mongo-express -> mongodb-service -> mongodb
 
 [reference](https://youtu.be/bhBSlnQcq2k)
+### Saving and Loading Docker
+* Saving docker image to tar
+> docker save vodafone.sdn2.backend:1.0 > docker_images/vf.sdm2.backend.tar
+* Importing docker image from tar
+> docker load < vf.sdm2.backend.tar
+* running image
+> docker run --name sdn2 -d -p 3009:3009 vodafone.sdn2.backend:1.0
+* Note: Docker save and load, and import and export are used together.
+
