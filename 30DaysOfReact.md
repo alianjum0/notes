@@ -51,21 +51,33 @@ console.log(txt.match(/\d+/g)) // ["2019", "30", "2020"]
 parseInt(), Number(), Plus sign e.g +Num
 
 ## Arrays
-> let array = []
+```
+ let array = []
+```
 * Arrays can have items of different data types.
 * Initialize array with 0
-> let arr = Array(8).fill(0)
+```
+ let arr = Array(8).fill(0)
+```
 * concat two arrays
-> const fruitsVegitables = fruits.concat(vegetables)
+```
+ const fruitsVegitables = fruits.concat(vegetables)
+```
 
 
 * If we are interested in the index of the array forEach is preferable to for of loop. 
 1. for of
-> for (const number in numbers){} 
+```
+ for (const number of numbers){} 
+```
 2. forEach
-> numbers.forEach((number,i)){}
+```
+ numbers.forEach((number,i)){}
+```
 3. for in - useful for objects literals to get keys of the object.
-> for (const key in user){}
+```
+ for (const key in user){}
+```
 
 * The scope let and const is the same. The difference is only reassigning. We can not change or reassign the value of const variable. 
 * let and const scope is block (function, loop, if), whereas var scope is
@@ -75,50 +87,67 @@ parseInt(), Number(), Plus sign e.g +Num
 * object is a key value pair.
 * Can be accessed by . or square bracket and a quote.
 * copy an object
-> const copyObj = Object.assign({},obj)
+```
+ const copyObj = Object.assign({},obj)
+```
 
 ## Functions
 ### Unlimited number of parameters in regular function
 
 * A function declaration provides a function scoped arguments array like object. Any thing we passed as argument in the function can be accessed from arguments object inside the functions. Let us see an example
-> function sumAllNums() {
->  console.log(arguments)
-> }
+```
+  function sumAllNums() {
+   console.log(arguments)
+  }
+```
 * In arrow function
-> const sumAllNums = (...args) => {}
-* **Note** Arrow functions automatically performs context binding, so bind is
-explicit bind is not required. 
+```
+ const sumAllNums = (...args) => {}
+```
+* **Note** Arrow functions automatically performs context binding, so explicit bind is not required. 
 * Otherwise this has windows scope in non-strict mode and undefined in strict
   mode.
 
 * Anonymous function or without a name
-> anonymousFunc = function() {}
+```
+ anonymousFunc = function() {}
+```
 * Expression functions are anonymous functions. After we create a function
   without a name and we assign it to a variable. 
-> const square = function(n) {}
+```
+ const square = function(n) {}
+```
 * self invoking functions, which don't need to be called to return a value.
 
 ###  Arrow function
 * Arrow function is an alternative to writing a function with some minor
   differences.
-> const square = (n) => {}
+```
+ const square = (n) => {}
+```
 * If function only have return statement, we can write it as
-> const printFullName = (First, Last) => '${First} ${Last}'
+```
+ const printFullName = (First, Last) => '${First} ${Last}'
+```
 
 * Function with default parameter
-> function name (param = value) {}
+```
+ function name (param = value) {}
+```
 ### Higher order functions
 * functions which take other function as a parameter or return a function as
   a value.
 * Callback is a function, which can be passed as parameter to other function.
 * Returning function: return function as a value
-> let sum = 0
-> const callback = function(element){ sum += element }
-> arr.forEach(callback)
+```
+ let sum = 0
+ const callback = function(element){ sum += element }
+ arr.forEach(callback)
+```
 ### Destructuring and Spreading
 * It is a way to unpack array and objects and assign to a distinct variable.
-> const [num1, n2, n3] = [1,2,3]
 ```
+ const [num1, n2, n3] = [1,2,3]
 const countries = [
   ['Finland', 'Helsinki'],
   ['Sweden', 'Stockholm'],
@@ -140,39 +169,59 @@ let { width, height, perimeter = 200 } = rectangle
 ```
 ### Functional Programming
 1. forEach
-> const callback = (item, i, arr) => {}
-> array.forEach(callback)
+```
+ const callback = (item, i, arr) => {}
+ array.forEach(callback)
+```
 2. map: one on one mapping
 * We use map method with array and return an array
-> const countries = ['Finland', 'Estonia', 'Sweden', 'Norway']
-> const newCountries = countries.map((country) => country.toUpperCase())
+```
+const countries = ['Finland', 'Estonia', 'Sweden', 'Norway']
+const newCountries = countries.map((country) => country.toUpperCase())
+```
 3. filter: returned array is equal or less
-> const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-> const evens = numbers.filter((n) => n % 2 === 0)
+```
+ const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+ const evens = numbers.filter((n) => n % 2 === 0)
+```
 4. reduce: returns a single value
-> const value = numbers.reduce((acc, cur) => acc * cur)
+```
+ const value = numbers.reduce((acc, cur) => acc * cur)
+```
 5. find: find first occurrence of an item or element
-> const firstEvenNum = numbers.find((n) => n % 2 === 0)
+```
+ const firstEvenNum = numbers.find((n) => n % 2 === 0)
+```
 6. findIndex
-> const firstEvenIndex = numbers.findIndex((n) => n % 2 === 0)
+```
+ const firstEvenIndex = numbers.findIndex((n) => n % 2 === 0)
+```
 7. some: if one or some of the items satisfy the criteria, it returns true
    otherwise false.
-> const someAreEvens = numbers.some((n) => n % 2 === 0)
+```
+ const someAreEvens = numbers.some((n) => n % 2 === 0)
+```
 8. every: every item satisfy the criteria.
-> const allAreEvens = numbers.every((n) => n % 2 === 0)
+```
+ const allAreEvens = numbers.every((n) => n % 2 === 0)
+```
 
 ## Class
 * **Static Method** These are called by the class and doesn't require to create
   and instance.
 * getter and setters: There is no difference between normal method and getter
   and setters in functionality. These are for understanding and readability.
-> get getScore() {}
-> set setScore() {}
+```
+ get getScore() {}
+ set setScore() {}
+```
 
 ### Inheritance
 * Using inheritance we can access all the properties and methods of parent
   class.
-> class Student extends Person {}
+```
+ class Student extends Person {}
+```
 ### Overriding methods
 * add additional properties and functionality
 ```
@@ -221,34 +270,51 @@ console.log(everything)
 * **Package** is a module of collection of modules e.g React, ReactDOM
 
 * creating a new application
-> npx create-react-app
+```
+ npx create-react-app
+```
 * start the application
-> npm start
+```
+ npm start
+```
 
 ## Component
 * components name starts with PascalCase. Words start with capital letter.
 * JSX element
-> const header = (<header><h1>Welcome</h1></header>)
+```
+const header = (<header><h1>Welcome</h1></header>)
+```
 * React component
-> const Header = () => { return header }
-or 
-> const Header = () => { return (<header><h1>Welcome</h1></header>)}
+```
+const Header = () => { return header }
+const Header = () => { return (<header><h1>Welcome</h1></header>)}
 or
-> const Header = () => ( <header><h1>Welcome</h1></header>)
+const Header = () => ( <header><h1>Welcome</h1></header>)
+```
 
 * Calling JSX element we use curly brackets
-> {header}
+```
+ {header}
+```
 * Calling component and passing attribute as follows
-> <ComponentName propsName={'data-type'}/>
+```
+ <ComponentName propsName={'data-type'}/>
+```
 * CSS properties uses camelCase. Number without unit is considered as px in
   CSS.
 ## Props
 * Array props mapping
-> const skillList = props.skills.map((skill) => <li>{skill}</li>)
+```
+ const skillList = props.skills.map((skill) => <li>{skill}</li>)
+```
 * Boolean props
-> let status = props.status ? 'Old enough to drive' : 'Too young for driving'
+```
+ let status = props.status ? 'Old enough to drive' : 'Too young for driving'
+```
 * Function inside curly brackets
-> <Button text='Say Hi' onClick={() => alert('Hi')} />
+```
+ <Button text='Say Hi' onClick={() => alert('Hi')} />
+```
 * In React, handlers are in camelCase. For instance onClick, onMouseOver, onKeyPress etc.
 ### Destructuring Props
 1. Step by step destructuring
@@ -288,27 +354,35 @@ const Header = ({
 # Day 7
 ## Mapping Arrays
 ### Mapping Array of numbers
-> const list = numbers.map((number) => <li>{number}</li>)
+```
+ const list = numbers.map((number) => <li>{number}</li>)
+```
 ### Mapping Array of arrays
-> const Skill = ({ skill: [tech, level] }) => (
->   <li>
->     {tech} {level}
->   </li>
-> )
+```
+ const Skill = ({ skill: [tech, level] }) => (
+   <li>
+     {tech} {level}
+   </li>
+ )
+```
 ### Mapping array of objects
-> const countryList = countries.map((country) => <Country country={country} />)
+```
+ const countryList = countries.map((country) => <Country country={country} />)
 
-> const Country = ({ country: { name, city } }) => {
->   return (
->     <div>
->       <h1>{name}</h1>
->       <small>{city}</small>
->     </div>
->   )
-> }
+ const Country = ({ country: { name, city } }) => {
+   return (
+     <div>
+       <h1>{name}</h1>
+       <small>{city}</small>
+     </div>
+   )
+ }
+```
 ### Keys in Mapping
 * Key is a unique identifier given to an element inside an array.
-> const list = numbers.map((num) => <li key={num}>{num}</li>)
+```
+ const list = numbers.map((num) => <li key={num}>{num}</li>)
+```
 # Day 7
 ## Class Components
 * Only class base functions use to have state and life cycle methods.
@@ -336,7 +410,9 @@ class Header extends React.Component {
 * State is an object in react which let the component re-render when state
   changes.
 * updating a state
-> this.setState({ count: this.state.count + 1 })
+```
+ this.setState({ count: this.state.count + 1 })
+```
 
 # Day 9 - Conditional Rendering
 * Conditional rendering can be done using if-else, ternary operator &&.
@@ -369,7 +445,9 @@ class Header extends React.Component {
     )
 ```
 * Conditionally rendering a component.
-> const status = this.state.loggedIn ? <Welcome /> : <Login />
+```
+ const status = this.state.loggedIn ? <Welcome /> : <Login />
+```
 ```
 {!loggedIn && (
    <p>
@@ -835,7 +913,9 @@ const higherOrderComponent = (Component) => {
 * sometimes it can renames as router.
 * after wrapping application with BrowseRouter, it works smoothly as it used to
   be.
-> import { BrowserRouter as Router } from 'react-router-dom'
+```
+ import { BrowserRouter as Router } from 'react-router-dom'
+```
 ## Route
 * It allows to navigate between component. It requires two props: path and
   component to render.
@@ -856,20 +936,28 @@ class App extends Component {
 ```
 * Because / will always take to home. To make /about go to about
   page use exact. or we can rearrange to put home at the end.
-> <Route exact path='/about' component={About} />
+```
+ <Route exact path='/about' component={About} />
+```
 * If we don't want slash at the end /about/. We can use strick attribute in
   addition to exact.
-> <Route exact strict path='/about' component={About} />
+```
+ <Route exact strict path='/about' component={About} />
+```
 ## Switch
 * It allows only on component to render.
 * with switch if it finds first matching route, it will stop looking and
   render. Otherwise it will render all matching components.
 ## NavLink
 * It allows to navigate without refreshing.
-> <NavLink to='/'>Home</NavLink>
+```
+ <NavLink to='/'>Home</NavLink>
+```
 * routes and navigation works perfectly if it founds the route otherwise it
   falls to the last component. This can be solved using NotFound component.
-> <Route component={NotFound} />
+```
+ <Route component={NotFound} />
+```
 
 ## Nesting Routing
 * It is possible to have nesting routes.
@@ -921,7 +1009,9 @@ const Challenges = (props) => {
 ```
 ## Prompt
 * prompt component is used ask user to confirm before leaving the page.
-> <Prompt message='Are you sure you want to leave?' />
+```
+ <Prompt message='Are you sure you want to leave?' />
+```
 # Day 18 - Fetch and Axios
 [Source](https://github.com/alianjum0/30-Days-Of-React/blob/master/18_Fetch_And_Axios/18_fetch_axios.md)
 ## Fetch
@@ -998,10 +1088,14 @@ fetchCountryData = async () => {
 ## Basic Hooks
 * useState, useEffect, useContext
 * useState allow to access state without a class based component.
-> const [count, setCount] = useState(0)
+```
+ const [count, setCount] = useState(0)
+```
 
 * then update using setCount
-> <button onClick={() => setCount(count + 1)}>Add One</button>
+```
+ <button onClick={() => setCount(count + 1)}>Add One</button>
+```
 * we can use multiple variable in useState as follow
 ```
 const [count, setCount] = useState(0)
